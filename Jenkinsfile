@@ -8,7 +8,7 @@ pipeline {
     }
     stage('BUILD') {
       steps {
-        bat 'mvn install'
+        bat 'ant war'
       }
     }
   }
